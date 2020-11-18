@@ -1,0 +1,15 @@
+<mat-toolbar fxLayout="row" color="primary" class="menu">
+    <span class="menu-logo" fxFlex>
+        <ng-content select="[menu-logo]"></ng-content>
+    </span>
+    <ng-content select="[menu-items]"></ng-content>
+    <ng-container>
+        <button mat-icon-button [matMenuTriggerFor]="dropMenu">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #dropMenu="matMenu">
+            <mat-divider></mat-divider>
+            <ng-content select="[menu-side-items]"></ng-content>
+        </mat-menu>
+    </ng-container>
+</mat-toolbar>

@@ -1,0 +1,97 @@
+$dark-primary-text: rgba(black, 0.87);
+$light-primary-text: white;
+
+//* Vibrant America blue
+$v-blue-50: #e2f6f8;
+$v-blue-100: #b7e8ed;
+$v-blue-200: #8dd9e2;
+$v-blue-300: #69cad5;
+$v-blue-400: #59bfcc;
+$v-blue-500: #54b4c3;
+$v-blue-600: #4ea4b1;
+$v-blue-700: #488f98;
+$v-blue-800: #427b81;
+$v-blue-900: #335859;
+// $v-blue-300-: ;
+// $v-blue-300-: ;
+// $v-blue-300-: ;
+
+$vibrant-blue: (
+  50: $v-blue-50,
+  100: $v-blue-100,
+  200: $v-blue-200,
+  300: $v-blue-300,
+  400: $v-blue-400,
+  500: $v-blue-500,
+  600: $v-blue-600,
+  700: $v-blue-700,
+  800: $v-blue-800,
+  900: $v-blue-900,
+  A100: #ff8a80,
+  A200: #ff5252,
+  A400: #ff1744,
+  A700: #d50000,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $light-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  ),
+);
+
+//*Vibrant America Indigo
+$v-indigo-50: #a7d9ff;
+$v-indigo-100: #96c9ef;
+$v-indigo-200: #85b8e0;
+$v-indigo-300: #74a8d0;
+$v-indigo-400: #6398c0;
+$v-indigo-500: #5287b1;
+$v-indigo-600: #4177a1;
+$v-indigo-700: #306791;
+$v-indigo-800: #1f5682;
+$v-indigo-900: #0e4672;
+// $v-indigo-50-: ;
+// $v-indigo-50-: ;
+
+$vibrant-indigo: (
+  50: $v-indigo-50,
+  100: $v-indigo-100,
+  200: $v-indigo-200,
+  300: $v-indigo-300,
+  400: $v-indigo-400,
+  500: $v-indigo-500,
+  600: $v-indigo-600,
+  700: $v-indigo-700,
+  800: $v-indigo-800,
+  900: $v-indigo-900,
+  A100: #ff8a80,
+  A200: #ff5252,
+  A400: #ff1744,
+  A700: #d50000,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $light-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  ),
+);

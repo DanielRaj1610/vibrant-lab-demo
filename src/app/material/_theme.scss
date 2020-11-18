@@ -1,0 +1,46 @@
+@import "~@angular/material/theming";
+@import "../_scss/_theme/vibrant-theme";
+
+@include mat-core();
+
+// $light-theme-primary: mat-palette($mat-light-blue, 700, 300, 900);
+// $light-theme-accent: mat-palette($mat-blue-grey, 400, 600, 800);
+// $light-theme-warn: mat-palette($mat-pink, A400);
+
+// $light-theme: mat-light-theme(
+//   $light-theme-primary,
+//   $light-theme-accent,
+//   $light-theme-warn
+// );
+
+// .light-theme {
+//   @include angular-material-theme($light-theme);
+// }
+
+$light-theme-primary: mat-palette($vibrant-indigo, 600, 700, 800);
+$light-theme-accent: mat-palette($vibrant-blue, 600, 700, 900);
+$light-theme-warn: mat-palette($mat-pink, 900);
+
+$light-theme: mat-light-theme(
+  $light-theme-primary,
+  $light-theme-accent,
+  $light-theme-warn
+);
+
+.light-theme {
+  @include angular-material-theme($light-theme);
+}
+
+$dark-theme-primary: mat-palette($mat-blue-grey, 700, 300, 900);
+$dark-theme-accent: mat-palette($mat-amber, A200, A100, A400);
+$dark-theme-warn: mat-palette($mat-pink, A400);
+
+$dark-theme: mat-dark-theme(
+  $dark-theme-primary,
+  $dark-theme-accent,
+  $dark-theme-warn
+);
+
+.dark-theme {
+  @include angular-material-theme($dark-theme);
+}
